@@ -80,7 +80,6 @@ describe('Dashboard', () => {
       if (config.params.name_like === '') {
         return [200, items];
       }
-
       return [200, items];
     });
 
